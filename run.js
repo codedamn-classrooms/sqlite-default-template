@@ -43,8 +43,8 @@ const executeAndLogQuery = (query) => {
 				})
 
 				for (const row of rows) {
-					const rowData = Object.entries(row).map(
-						([col, value]) => value
+					const rowData = Object.entries(row).map(([col, value]) =>
+						value == null ? clc.red('NULL') : value
 					)
 					table.push(rowData)
 				}
