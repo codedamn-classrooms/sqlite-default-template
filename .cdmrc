@@ -1,6 +1,5 @@
 tabs: ["query.sql"]
-run-button: '-'
-terminals: 
-  - pnpm i && node seed-db.js && pip3 install sqlite-web && sqlite_web ./database.sqlite -p 1337 -H 0.0.0.0
+run-button: node run.js
+terminals: ['pnpm i && node seed-db.js && pip3 install sqlite-web && sqlite_web ./database.sqlite -p 1337 -H 0.0.0.0']
 browser-devtools: hide
 editor-size-percent: 32
