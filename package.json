@@ -5,6 +5,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"better-sqlite3": "9.0.0",
-		"cli-color": "2.0.3"
+		"cli-color": "2.0.3",
+		"cli-table": "0.3.11"
 	}
 }
